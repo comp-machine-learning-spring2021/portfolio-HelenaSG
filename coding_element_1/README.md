@@ -1,13 +1,13 @@
 # K-means and Spectual Clustering from scratch
 
 Contents:
-1. [Write my own k-means](#My k-means implementation)
+1. [Write my own k-means](#-My-k-means-implementation)
 2. Pre-process data for Spectral clustering
 3. Build and deploy spectral clustering
 4. Perform k-means and spectral clustering on an "interesting" data set
 5. Compare my implementions with the built in `sklearn` kmeans functions, discuss the efficacy of the work via time
 
-*Notes: *
+*Notes: 
 *The implementations for 1-3 are in ce1.py, while the plots and discussions for 4-5 are in ce1-notes.ipynb.*
 
 ## 1: My k-means implementation
