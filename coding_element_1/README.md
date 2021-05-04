@@ -5,7 +5,7 @@ Contents:
 2. Pre-process data for Spectral clustering
 3. Build and deploy spectral clustering
 4. Perform k-means and spectral clustering on an "interesting" data set
-5. Compare my implementions with the built in `sklearn` kmeans functions, discuss the efficacy of the work via time
+5. </in>Compare my implementions with the built in `sklearn` kmeans functions, discuss the efficacy of the work via time</ins>
 
 Notes:
 The implementations for 1-3 are in ce1.py, while the plots and discussions for 4-5 are in ce1-notes.ipynb.
