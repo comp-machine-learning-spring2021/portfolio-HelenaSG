@@ -42,5 +42,5 @@ Among the four models, It appeared that the ensemble method, Random Forest, work
   
 ## :musical_note: Conclusion
 
-  In this project, I built a machine learning model using sklearn implementations to label the genres of each song. I performed cross-validation to choose between kNN, SVM, Random Forests and Decision Trees. Based on the results, I selected the Random Forests. After tuning its hyperparameters, I retrained the model and tested the general accuracy of the final model on the test set. The model achieved 91.06%  accuracy. 
+In this project, I built a machine learning model using sklearn implementations to label the genres of each song. I performed cross-validation to choose between kNN, SVM, and Random Forests. Based on the results, I selected the Random Forests. After tuning its hyperparameters, I retrained the model and tested the general accuracy of the final model on the test set. The model achieved 91.06%  accuracy. 
 
