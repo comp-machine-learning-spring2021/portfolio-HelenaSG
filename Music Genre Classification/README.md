@@ -2,7 +2,7 @@
 ![studio-vibe](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Music%20Genre%20Classification/theme.png?raw=true)
 
 
-## :small_orange_diamond: Introduction
+## :musical_note: Introduction
 
 As a dancer, music is an essential component of my life. In the 21st century, music streaming services have been the most popular means of entertainment for people to listen to their favorite music. Over the past few years, more advanced features have emerged. Among these features, making personalized recommendations is one of the most magical ones to me. How does it know my tastes so well? Why are these recommendations so on point?
 
@@ -20,15 +20,15 @@ Each song is essentially a deliberately designed audio. With musical features de
   * Fine-tuning machine learning models via grid search
   * Performance evaluation
 
-## :small_orange_diamond: Data Preprocessing
+## :musical_note: Data Preprocessing
 
 The real world data is messy, with missing values and undesired formats, hence it is necessary to preprocess the data before fitting the model. In order to perform classification with the models, I converted the information of the genre feature so that "Rock" becomes 0 and "HIp-hop" becomes 1. I also scaled the features, given the fact that large ranges could make an influence on the performance of kNN and SVM classifiers. There are no missing values in this dataset so we do not need to worry about that. 
 
-## :small_orange_diamond: Feature Selection
+## :musical_note: Feature Selection
 
 To improve interpretability and reduce the computation cost of the model, we typically want to remove irrelevant variables and avoid using variables that are correlated with each other. By creating a correlation matrix to see the pairwise correlation of columns, I selected three features that have the strongest relationship with the target variable: speechiness, danceability, and instrumentalness. 
 
-## :small_orange_diamond: Modeling
+## :musical_note: Modeling
 
 Due to the variations in data, a model's performance can vary wildly depending on what data is in the training set and what data is in the testing set. If the wrong training happens to be a bad one, the model is in risk of overfitting. Therefore, I used a technique called k-fold cross-validation that calculates the metrics based on different combinations of training and testing data. In this way, the resulting model is robust to variations in the data. Specifically, for each classifier, I conducted 6-fold cross validation on 90% of the data, setting aside 10% of the data as the test set that would be used in the end to evaluate the final model's performance.
 
@@ -36,11 +36,11 @@ In the 6-fold cross validation, the data was divided into 6 folds. During the fi
 
 Among the four models, It appeared that the ensemble method, Random Forest, worked the best with the data. I conducted grid search to get the optimized hyper parameters for the model and tuned it. 
 
-## :small_orange_diamond: Results 
+## :musical_note: Results 
 
   The final model has an accuracy of about 91.06% on the test set. That's to say, on new data, we can expect this model to tell whether the song is a hiphop song or a rock song with about 91.06% of the answers being correct. 
   
-## :small_orange_diamond: Conclusion
+## :musical_note: Conclusion
 
   In this project, I built a machine learning model using sklearn implementations to label the genres of each song. I performed cross-validation to choose between kNN, SVM, Random Forests and Decision Trees. Based on the results, I selected the Random Forests. After tuning its hyperparameters, I retrained the model and tested the general accuracy of the final model on the test set. The model achieved 91.06%  accuracy. 
 
