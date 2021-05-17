@@ -21,4 +21,4 @@ I wanted my version of vintage pictures to have a simple color scheme, and look 
 
 ## :art: Application: transforming pictures to vintage styles 
 
-![gallery](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Vintage%20Picture%20Generator/gallery.jpeg?raw=true)
+![gallery](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Clustering-and-Vintage-Art/gallery.jpeg)
