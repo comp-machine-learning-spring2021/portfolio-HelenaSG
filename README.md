@@ -35,7 +35,7 @@ I'm passionate about using data to gain beautiful insights, make better decision
   * [Text Mining](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/tree/main/Text-Mining):
     - Working with **text data**
     * An exploration on transfer learning-based sentiment analysis 
-      * Trained a classifier on an already existing labeled dataa and applied it to a problem of interest
+      * Trained a classifier on an already existing labeled data and applied it to a problem of interest
       * Performed document-level sentiment analysis
       * Used data visualization to find insights in the results
  
