@@ -3,7 +3,21 @@
 
      Portfolio description
 
-## :small_orange_diamond: Experience
+## :small_orange_diamond: Relevent Experience
+
+#### Summer Research Fellowship Program, *Student Researcher, Smith College, MA*
+
+- Conducted independent research on offline handwritten Syriac text recognition system 
+- Implemented a deep-learning model in python with Numpy, CV2, and TensorFlow libraries
+- Segmented pages of Syriac manuscripts into word-images in Matlab
+- Trained neural networks and improved recognition accuracy by 25% through data augmentation
+
+#### Coursework: Computational Machine Learning, *Student, Smith College, MA*
+
+- Implemented a variety of machine learning algorithms in python 
+- Learned about the differences between supervised and unsupervised learning tasks and methods
+- Compared models, evaluated results, and discussed about the efficacy of work via time
+- Investigated ethical considerations of machine learning algorithms
 
 ## :small_orange_diamond: Elements 
 
