@@ -1,7 +1,9 @@
 # Computational Machine Learning Portfolio 
 ![data-has-a-better-idea](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1080/https://qelp.com/wp-content/uploads/2018/11/sds-1-1080x6751.jpg)
+ 
+Hi, there! I'm Helena, an aspiring Software Engineer with an interest in Data Science. 
 
- Hi, there! I'm Helena, an aspiring Software Engineer with interests in Data Science technologies. I'm passionate about using data to gain beautiful insights, make better decisions, and help machines learn. This github repo serves as a portfolio including my machine learning projects for academic, self-learning, and hobby.
+I'm passionate about using data to gain beautiful insights, make better decisions, and help machines learn. This GitHub repo serves as a portfolio including my machine learning projects for academic, self-learning, and hobby.
 
 ## :small_orange_diamond: Relevent Experience
 
@@ -25,17 +27,27 @@
 
   * [Music Genre Classification](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/tree/main/Music-Genre-Classification): 
     - Working with **numerical and categorical data** 
-    * A complete walk-through on the machine learning process 
+    * A complete walk-through on the machine learning process
+      * Preprocessed data and selected meaningful features
+      * Performed cross-validation to choose between kNN, SVM, and Random Forests
+      * Looked into optimized combination of hyperparameters for the chosen model
      
   * [Text Mining](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/tree/main/Text-Mining):
     - Working with **text data**
     * Document-level sentiment analysis
+      * Trained a classifier on an already existing labeled dataa and applied it to a problem of interest
+      * Performed text mining with sentiment analysis
+      * Created visualizations to analyze texts
  
 :small_blue_diamond: **Unsupervised Learning**
 
   * [Clustering and Vintage Art](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/tree/main/Clustering-and-Vintage-Art):
     - Working with **images** and creating Arts
     * Implementations, comparisons, and applications of clustering algorithms 
+      * Implemented K-means clustering and Spectral clustering from scratch
+      * Compared algorithms and discussed the efficacy of the work via time
+      * Applied the K-means algorithm to conduct vintage image transformation
+ 
  
 
 ## :small_orange_diamond: Highlights 
