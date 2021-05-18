@@ -16,7 +16,7 @@ As technology advances, people's focus gradually shifts from how they collect da
   * Conducting sentiment analysis at document level 
   * Classifying texts in a time-saving way: transfer learning
   * Populating a data frame with the information extracted
-  * Creating data visualization to find insights in the results
+  * Creating data visualization to find insights in the results 
 
 ## :pencil: Setting the stage 
 
@@ -28,11 +28,10 @@ Our goal is to have the news report data classified as "positive" or "negative" 
 
 Since the news data are in text file format, a document-level sentiment analysis would be appropriate. Unfortunately, all labeled news data I found is either at sentence-level or using a different set of labels like "true" and "fake." I was able to find the [polarity dataset](https://www.cs.cornell.edu/people/pabo/movie-review-data/) that looked the most suitable for the task we cared about. This dataset contains 1000 positive and 1000 negative processed reviews on movies. Movie reviews and news reports are similar because both are a mixture of quotes, descriptions, and opinions.
 
-I split the labeled reviews data into 90% train set and 10% test set, trained three classifiers on the train set, and evaluate the results in terms of time and accuracy. The linear SVM model turned out to be the best. Then, I used all of the data for training to get the final model. The next step was to read the texts from all the news report files for classifications. After I formatted the data, I obtained the sentiment labels by applying the model. The code for this section can be found [here](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Text-Mining/Sentiment-analysis.ipynb).
+I split the labeled reviews data into 90% train set and 10% test set, trained three classifiers on the train set, and evaluate the results in terms of time and accuracy. The linear SVM model turned out to be the best. Then, I used all of the data for training to get the final model. The next step was to read the texts from all the news report files for classifications. After I formatted the data, I obtained the sentiment labels by applying the model. With the results, I populated a new data frame with each news report as the observation, and the columns to be the file names, polarity labels, contents, and the sources of each report. The code for this section can be found [here](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Text-Mining/Sentiment-analysis.ipynb).
 
+## :pencil: Data visualization
 
-## :pencil: Data transformation and visualization
-
-
+In practice, when we use transfer learning to make the model generalize to a new domain, we risk deterioration or collapse in the performance. To further investigate the data and verify the results, I made separate word cloud visualizations for the reports of each label. For phrases mentioned more frequently than others in the negative cloud, I went back to the articles looking for clues as to what is bad about them, and I did the same thing for the positive cloud. Happily, I found the results to be fruitful. The code and visualizations for this section can be found [here](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Text-Mining/Wordcloud-visualization.ipynb).
 
 
