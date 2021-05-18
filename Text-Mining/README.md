@@ -18,13 +18,21 @@ As technology advances, people's focus gradually shifts from how they collect da
   * Populating a data frame with the information extracted
   * Creating data visualization to find insights in the results
 
-## :pencil: Setting the stage
+## :pencil: Setting the stage 
 
-This project is motivated by [VAST Challenge 2021](https://vast-challenge.github.io/2021/MC1.html). The data provided consisted of a collection of current and historical news reports from multiple domestic and translated foreign sources, in text file format. Specifically, these files are dealing with the kidnapping of the GASTech employees by members of the social movement group POK. I wanted to characterize any biases in these news reports, concerning their representation of specific people, places, and events. As contextual mining of texts, sentiment analysis can identify and extract subjective information in source materials, which I think could be helpful. Therefore, I decided to conduct sentiment analysis on the news reports.
+This project is motivated by [VAST Challenge 2021](https://vast-challenge.github.io/2021/MC1.html). The data provided consisted of a collection of current and historical news reports from multiple domestic and translated foreign sources, in text file format. Specifically, these files are dealing with the kidnapping of the GASTech employees by members of the social movement group POK. I wanted to characterize any biases in these news reports, concerning their representation of specific people, places, and events. As contextual mining of texts, sentiment analysis can identify and extract subjective information in source materials, which I think could be helpful. 
 
 ## :pencil: Sentiment analysis and transfer learning
 
-Our goal is to have the news report data classified as “positive” or “negative” without having to read through them ourselves. Since there is not enough labeled data to train a reliable model for the task, the traditional supervised learning paradigm would not apply in this scenario. What we could do instead is that we could adopt a “semi-supervised” method to leverage a model that has been trained on a similar domain. This process would fall under what is called transfer learning. 
+Our goal is to have the news report data classified as "positive" or "negative" without having to read through them ourselves. Since there is not enough labeled data to train a reliable model for the task, the traditional supervised learning paradigm would not apply in this scenario. What we could do instead is that we could adopt a "semi-supervised" method to leverage a model that has been trained on a similar domain. This process would fall under what is called transfer learning. 
+
+Since the news data are in text file format, a document-level sentiment analysis would be appropriate. Unfortunately, all labeled news data I found is either at sentence-level or using a different set of labels like "true" and "fake." I was able to find the [polarity dataset](https://www.cs.cornell.edu/people/pabo/movie-review-data/) that looked the most suitable for the task we cared about. This dataset contains 1000 positive and 1000 negative processed reviews on movies. Movie reviews and news reports are similar because both are a mixture of quotes, descriptions, and opinions.
+
+I split the labeled reviews data into 90% train set and 10% test set, trained three classifiers on the train set, and evaluate the results in terms of time and accuracy. The linear SVM model turned out to be the best. Then, I used all of the data for training to get the final model. The next step was to read the texts from all the news report files for classifications. After I formatted the data, I obtained the sentiment labels by applying the model. The code for this section can be found [here](https://github.com/comp-machine-learning-spring2021/portfolio-HelenaSG/blob/main/Text-Mining/Sentiment-analysis.ipynb).
 
 
-## :pencil: Data visualization
+## :pencil: Data transformation and visualization
+
+
+
+
