@@ -9,9 +9,9 @@ I wanted my version of vintage pictures to have a simple color scheme, and look 
 :small_blue_diamond: **An in-Depth Exploration of Clustering Algorithms:** 
 
   * K-means clustering and Spectral clustering from scratch
-  * Compare my implementions with the built in sklearn kmeans functions
-  * Compare two clustering algorithms 
-  * Discuss the efficacy of the work via time
+  * Comparing my implementions with the built in sklearn kmeans functions
+  * Comparing two clustering algorithms 
+  * Discussing the efficacy of the work via time
   * An artistic application of k-means
 
 ## :art: K-means and Spectral clustering implementations
