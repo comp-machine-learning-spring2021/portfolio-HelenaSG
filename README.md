@@ -1,7 +1,7 @@
 # Computational Machine Learning Portfolio 
 ![data-has-a-better-idea](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1080/https://qelp.com/wp-content/uploads/2018/11/sds-1-1080x6751.jpg)
  
-Hi, there! I'm Helena, an aspiring Software Engineer with an interest in Data Science. 
+Hi there! I'm Helena, an aspiring Software Engineer with an interest in Data Science. 
 
 I'm passionate about using data to gain beautiful insights, make better decisions, and help machines learn. This GitHub repo is a collection of my machine-learning-related projects for academic, self-learning, and hobby. The idea is to concisely demonstrate that I have a sufficient understanding of fundamental machine learning algorithms to be able to implement, differentiate, build, evaluate, and use them. Beyond machine learning, I'm interested in full-stack development. Besides Python, I also have experience coding in R, SQL, Javascript, and Java. I enjoy developing both frontend and backend portions of an application.
 
