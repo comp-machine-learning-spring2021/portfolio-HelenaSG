@@ -1,5 +1,7 @@
 # Computational Machine Learning Portfolio 
 ![data-has-a-better-idea](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1080/https://qelp.com/wp-content/uploads/2018/11/sds-1-1080x6751.jpg)
+_(Image via [qelp.com](https://qelp.com/3-key-takeaways-from-the-bi-innovation-summit-in-chicago/))_
+ 
  
 Hi there! I'm Helena, an aspiring Software Engineer with an interest in Data Science. 
 
